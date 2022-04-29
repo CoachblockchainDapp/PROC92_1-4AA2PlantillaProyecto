@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Text, View, Image, ImageBackground, TouchableOpacity, StyleSheet, Alert, Platform, StatusBar, SafeAreaView, Linking, ScrollView } from 'react-native';
 
-// import axios from 'axios';
-// import {axios} from 'axios';
-// import axios from axios;
-// import "axios" from axios;
+// importar axios de'axios';
+// importar {axios} de 'axios';
+// importar axios de axios;
+// importar "axios" de axios;
 
 export default class DailyPicScreen extends Component {
     constructor(props) {
