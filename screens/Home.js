@@ -21,8 +21,8 @@ export default class HomeScreen extends Component {
                 <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
                     <View style={styles.titleBar}>
                         <Image source={require("../assets/main-icon.png")} style={{ width: 150, height: 150 }}></Image>
-                        <Text style={styles.titleText}>Estelar</Text>
                         <Text style={styles.titleText}>App</Text>
+                        <Text style={styles.titleText}>Estelar</Text>
                     </View>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
